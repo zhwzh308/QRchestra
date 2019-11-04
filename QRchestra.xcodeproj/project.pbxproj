@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ECFBCC12370B5AC0082AA49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECFBCC02370B5AC0082AA49 /* AppDelegate.swift */; };
+		2ECFBCC32370B5AC0082AA49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECFBCC22370B5AC0082AA49 /* SceneDelegate.swift */; };
+		2ECFBCC52370B5AC0082AA49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECFBCC42370B5AC0082AA49 /* ContentView.swift */; };
+		2ECFBCC72370B5AE0082AA49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECFBCC62370B5AE0082AA49 /* Assets.xcassets */; };
+		2ECFBCCA2370B5AE0082AA49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECFBCC92370B5AE0082AA49 /* Preview Assets.xcassets */; };
+		2ECFBCCD2370B5AE0082AA49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ECFBCCB2370B5AE0082AA49 /* LaunchScreen.storyboard */; };
+		2ECFBCD52370B6780082AA49 /* Synth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECFBCD42370B6780082AA49 /* Synth.swift */; };
+		2ECFBCD72370B6A00082AA49 /* SynthAudioSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECFBCD62370B6A00082AA49 /* SynthAudioSessionDelegate.swift */; };
+		2ECFBCD92370DB4F0082AA49 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECFBCD82370DB4F0082AA49 /* SessionManager.swift */; };
+		2ECFBCDB2370E6C00082AA49 /* SessionManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECFBCDA2370E6C00082AA49 /* SessionManagerDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2ECFBCBD2370B5AC0082AA49 /* QRchestra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRchestra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECFBCC02370B5AC0082AA49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2ECFBCC22370B5AC0082AA49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2ECFBCC42370B5AC0082AA49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2ECFBCC62370B5AE0082AA49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2ECFBCC92370B5AE0082AA49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2ECFBCCC2370B5AE0082AA49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2ECFBCCE2370B5AE0082AA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ECFBCD42370B6780082AA49 /* Synth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Synth.swift; sourceTree = "<group>"; };
+		2ECFBCD62370B6A00082AA49 /* SynthAudioSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthAudioSessionDelegate.swift; sourceTree = "<group>"; };
+		2ECFBCD82370DB4F0082AA49 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		2ECFBCDA2370E6C00082AA49 /* SessionManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManagerDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ECFBCBA2370B5AC0082AA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ECFBCB42370B5AC0082AA49 = {
+			isa = PBXGroup;
+			children = (
+				2ECFBCBF2370B5AC0082AA49 /* QRchestra */,
+				2ECFBCBE2370B5AC0082AA49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ECFBCBE2370B5AC0082AA49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ECFBCBD2370B5AC0082AA49 /* QRchestra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ECFBCBF2370B5AC0082AA49 /* QRchestra */ = {
+			isa = PBXGroup;
+			children = (
+				2ECFBCC02370B5AC0082AA49 /* AppDelegate.swift */,
+				2ECFBCD42370B6780082AA49 /* Synth.swift */,
+				2ECFBCD62370B6A00082AA49 /* SynthAudioSessionDelegate.swift */,
+				2ECFBCD82370DB4F0082AA49 /* SessionManager.swift */,
+				2ECFBCDA2370E6C00082AA49 /* SessionManagerDelegate.swift */,
+				2ECFBCC22370B5AC0082AA49 /* SceneDelegate.swift */,
+				2ECFBCC42370B5AC0082AA49 /* ContentView.swift */,
+				2ECFBCC62370B5AE0082AA49 /* Assets.xcassets */,
+				2ECFBCCB2370B5AE0082AA49 /* LaunchScreen.storyboard */,
+				2ECFBCCE2370B5AE0082AA49 /* Info.plist */,
+				2ECFBCC82370B5AE0082AA49 /* Preview Content */,
+			);
+			path = QRchestra;
+			sourceTree = "<group>";
+		};
+		2ECFBCC82370B5AE0082AA49 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2ECFBCC92370B5AE0082AA49 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ECFBCBC2370B5AC0082AA49 /* QRchestra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ECFBCD12370B5AE0082AA49 /* Build configuration list for PBXNativeTarget "QRchestra" */;
+			buildPhases = (
+				2ECFBCB92370B5AC0082AA49 /* Sources */,
+				2ECFBCBA2370B5AC0082AA49 /* Frameworks */,
+				2ECFBCBB2370B5AC0082AA49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRchestra;
+			productName = QRchestra;
+			productReference = 2ECFBCBD2370B5AC0082AA49 /* QRchestra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ECFBCB52370B5AC0082AA49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Wenzhong Zhang";
+				TargetAttributes = {
+					2ECFBCBC2370B5AC0082AA49 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 2ECFBCB82370B5AC0082AA49 /* Build configuration list for PBXProject "QRchestra" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ECFBCB42370B5AC0082AA49;
+			productRefGroup = 2ECFBCBE2370B5AC0082AA49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ECFBCBC2370B5AC0082AA49 /* QRchestra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ECFBCBB2370B5AC0082AA49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECFBCCD2370B5AE0082AA49 /* LaunchScreen.storyboard in Resources */,
+				2ECFBCCA2370B5AE0082AA49 /* Preview Assets.xcassets in Resources */,
+				2ECFBCC72370B5AE0082AA49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ECFBCB92370B5AC0082AA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECFBCD52370B6780082AA49 /* Synth.swift in Sources */,
+				2ECFBCDB2370E6C00082AA49 /* SessionManagerDelegate.swift in Sources */,
+				2ECFBCC12370B5AC0082AA49 /* AppDelegate.swift in Sources */,
+				2ECFBCD92370DB4F0082AA49 /* SessionManager.swift in Sources */,
+				2ECFBCD72370B6A00082AA49 /* SynthAudioSessionDelegate.swift in Sources */,
+				2ECFBCC32370B5AC0082AA49 /* SceneDelegate.swift in Sources */,
+				2ECFBCC52370B5AC0082AA49 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2ECFBCCB2370B5AE0082AA49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ECFBCCC2370B5AE0082AA49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ECFBCCF2370B5AE0082AA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2ECFBCD02370B5AE0082AA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ECFBCD22370B5AE0082AA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"QRchestra/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QRchestra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenzhongzhang.QRchestra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2ECFBCD32370B5AE0082AA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"QRchestra/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QRchestra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenzhongzhang.QRchestra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ECFBCB82370B5AC0082AA49 /* Build configuration list for PBXProject "QRchestra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECFBCCF2370B5AE0082AA49 /* Debug */,
+				2ECFBCD02370B5AE0082AA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ECFBCD12370B5AE0082AA49 /* Build configuration list for PBXNativeTarget "QRchestra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECFBCD22370B5AE0082AA49 /* Debug */,
+				2ECFBCD32370B5AE0082AA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ECFBCB52370B5AC0082AA49 /* Project object */;
+}
